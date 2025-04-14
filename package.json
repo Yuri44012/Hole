@@ -1,0 +1,16 @@
+{
+  "name": "roblox-group-poster",
+  "version": "1.0.0",
+  "description": "A simple web application to post messages to a Roblox group wall using a cookie.",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
