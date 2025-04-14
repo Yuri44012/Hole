@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Group Poster</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Roblox Group Poster</h1>
+    
+    <div id="loginSection">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="cookie">Enter your Roblox cookie:</label>
+            <input type="text" id="cookie" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="postSection" style="display:none;">
+        <h2>Post to Roblox Group Wall</h2>
+        <form id="postForm">
+            <label for="link">Enter Roblox group link:</label>
+            <input type="text" id="link" required>
+            <label for="message">Enter message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Post</button>
+        </form>
+        <div id="status"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
